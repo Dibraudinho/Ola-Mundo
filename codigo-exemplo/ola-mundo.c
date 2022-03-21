@@ -32,5 +32,6 @@ int main(){
     scanf("%f",&altura);
 
     imc = calcularImc(peso,altura);
-   classificarImc(imc);
+    classificarImc(imc);
+    system("pause");
 }
